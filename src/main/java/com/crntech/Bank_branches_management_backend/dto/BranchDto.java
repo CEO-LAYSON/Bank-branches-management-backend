@@ -17,5 +17,5 @@ public class BranchDto {
     private String postalCode;
     private String phone;
     private String email;
-    private boolean active;
+    private Boolean active;
 }

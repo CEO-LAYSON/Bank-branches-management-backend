@@ -11,11 +11,12 @@ import java.util.Set;
 public class UserDto {
     private Long id;
     private String username;
+    private String password;
     private String email;
     private String firstName;
     private String lastName;
     private Set<String> roles;
     private Long branchId;
     private String branchName;
-    private boolean active;
+    private Boolean active;
 }
